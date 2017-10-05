@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Userserver</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+     
+      <style>
+        h1 {font-size:300%;}
+        body {color:purple;}
+        body {background-color:#c0c0c0;}
+        th {font-size: 150%;}
+      </style>
+    
+  </head>
+
+  <body>
+    <%= yield %>
+
+  </body>
+      
+</html>
